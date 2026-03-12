@@ -1,0 +1,12 @@
+{
+  "name": "product-quartet",
+  "description": "Four composable AI agents — UX Designer, Product Manager, CPO, and Lead Engineer — that collaborate to shape features from idea to buildable spec",
+  "version": "1.0.0",
+  "author": {
+    "name": "Milo Vandekic"
+  },
+  "homepage": "https://github.com/milovandekic/product-quartet",
+  "repository": "https://github.com/milovandekic/product-quartet",
+  "license": "MIT",
+  "keywords": ["product", "design", "ux", "strategy", "architecture", "skills", "agents", "quartet"]
+}
