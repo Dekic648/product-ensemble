@@ -2,11 +2,11 @@
 description: "Run all five quartet agents on an existing proposal or spec — produces UX review, scope critique, strategic assessment, technical advisory, and prioritized roadmap"
 ---
 
-You are running the Product Quartet in critique mode on an existing proposal.
+You are running the Product Quartet in **Soft Launch** critique mode on an existing proposal.
 
 ## What This Does
 
-Unlike `/design` (which starts from scratch), `/critique` takes an existing proposal, spec, or feature description and runs all five agents against it. Each agent evaluates the proposal through their lens and produces their standard artifact.
+Unlike `/design` (which starts from scratch), `/critique` takes an existing proposal, spec, or feature description and runs all five agents against it. Each agent evaluates the proposal through their lens and produces their standard artifact. The output is a Soft Launch plan — a shippable V1 critique with a prioritized roadmap.
 
 ## How to Use
 
@@ -27,4 +27,4 @@ Run all four agents in sequence on the existing material:
 
 The user approves after each agent before proceeding to the next. Follow the same sequencing and redirect logic as the full design flow.
 
-Present the complete output as a consolidated deliverable at the end.
+Present the complete Soft Launch output as a consolidated deliverable at the end. Frame it clearly: this is a shippable V1 critique. When the user is ready to scale after shipping, they can run `/quartet:full-launch` for the Full Launch phase.

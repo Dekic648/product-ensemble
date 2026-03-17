@@ -26,12 +26,21 @@ Finally, the **Roadmap Strategist** takes everything the team has produced and s
 
 You approve after every agent. Nothing advances without your sign-off. And because the skills trigger automatically, you don't need to do anything special. Your coding agent just has a product team.
 
+## Soft Launch First, Always
+
+Every quartet session produces a **Soft Launch** plan — a complete, shippable V1 designed to validate your core thesis with real users. It's not a prototype. It's a finished product, scoped tightly.
+
+Once you've shipped V1 and collected real-world feedback, you can expand into a **Full Launch** — adding safety review, research validation, go-to-market strategy, and data-driven iteration.
+
+You don't need Full Launch to ship. You need it to scale.
+
 ## Commands
 
 | Command | What it does |
 |---------|-------------|
-| `/quartet:design` | Full quartet session — idea through all four agents |
-| `/quartet:critique` | Run all four agents on an existing proposal |
+| `/quartet:design` | Soft Launch session — idea through all five agents, produces shippable V1 plan |
+| `/quartet:critique` | Run all five agents on an existing proposal in Soft Launch mode |
+| `/quartet:full-launch` | Expand a shipped V1 into Full Launch — safety, research, GTM, data-driven iteration |
 | `/quartet:ux-review` | Standalone UX Designer review |
 | `/quartet:tech-review` | Standalone Lead Engineer technical review |
 
@@ -74,8 +83,9 @@ product-quartet/
 │   ├── lead-engineer/SKILL.md      # Lead Engineer agent
 │   └── roadmap-strategist/SKILL.md # Roadmap Strategist agent
 ├── commands/
-│   ├── design.md                # /quartet:design — full session
-│   ├── critique.md              # /quartet:critique — critique existing
+│   ├── design.md                # /quartet:design — Soft Launch session
+│   ├── critique.md              # /quartet:critique — critique existing (Soft Launch)
+│   ├── full-launch.md           # /quartet:full-launch — expand V1 to Full Launch
 │   ├── ux-review.md             # /quartet:ux-review — UX only
 │   └── tech-review.md           # /quartet:tech-review — tech only
 ├── agents/

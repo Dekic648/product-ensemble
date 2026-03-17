@@ -2,11 +2,13 @@
 description: "Run the full product quartet on a new feature or product idea — UX Designer, Product Manager, CPO, Lead Engineer, and Roadmap Strategist in sequence"
 ---
 
-You are starting a full Product Quartet design session.
+You are starting a **Soft Launch** Product Quartet design session.
 
 ## What This Does
 
-This command activates the quartet orchestrator, which routes your feature idea through four specialized agents in sequence:
+This session produces a complete, shippable V1 — your Soft Launch plan. It's not a prototype or a beta. It's a finished product, scoped tightly to validate your core thesis with real users.
+
+The orchestrator routes your feature idea through five specialized agents in sequence:
 
 1. **UX Designer** — defines the user experience (flows, interactions, friction points)
 2. **Product Manager** — shapes it into a buildable spec (scope, stories, acceptance criteria)
@@ -35,4 +37,4 @@ Follow the sequencing logic defined in the quartet-orchestrator agent. Every art
 
 After the Lead Engineer's technical advisory is approved, proceed to product-quartet:roadmap-strategist. The Roadmap Strategist receives all four approved artifacts and produces a prioritized implementation roadmap.
 
-After the roadmap is delivered, present the complete quartet output to the user and ask how they'd like to proceed.
+After the roadmap is delivered, present the complete Soft Launch plan to the user. Frame it clearly: this is a shippable V1 ready to build. When the user is ready to scale after shipping V1, they can run `/quartet:full-launch` to enter the Full Launch phase — which adds safety review, research validation, go-to-market strategy, and data-driven iteration.

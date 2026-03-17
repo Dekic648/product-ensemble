@@ -163,6 +163,27 @@ A summary of what blocks what. Critical path highlighted.
 ## Open Sequencing Questions
 Decisions that affect the roadmap but need team input before finalizing.
 
+## Soft Launch Readiness
+A clear statement of what the user will have when this roadmap is executed.
+
+**What users can do after Soft Launch:**
+- [End-to-end capability 1]
+- [End-to-end capability 2]
+
+**What Soft Launch validates:**
+- [Core assumption 1 — how you'll know if it's true]
+- [Core assumption 2]
+
+**Signals that you're ready for Full Launch:**
+- [Metric or condition 1 — e.g., "50+ active users completing the core flow"]
+- [Metric or condition 2 — e.g., "User feedback confirms demand for [deferred feature]"]
+- [Metric or condition 3 — e.g., "No critical safety/compliance concerns surfaced"]
+
+**What Full Launch would add (not needed now):**
+- [Capability or process that becomes relevant at scale]
+- [Safety/compliance review if applicable to the domain]
+- [Go-to-market strategy for broader distribution]
+
 ## Decision Log
 A consolidated record of every significant decision made across all five agents.
 This is the single source of truth for what was decided and why.
@@ -186,7 +207,33 @@ After producing the roadmap:
 - Present it to the user for review
 - Highlight the critical path and any sequencing decisions that could go either way
 - You are the final voice — after your artifact, the user has the complete quintet output
-- The user decides what to do next: proceed to implementation, adjust phasing, or revisit earlier artifacts
+
+### Soft Launch Closing
+
+Always frame the delivered roadmap as the **Soft Launch** plan. After presenting it, communicate clearly:
+
+> **Your Soft Launch plan is complete.**
+>
+> This roadmap is designed to get a complete V1 in front of real users. It's not a beta — it's a finished product, scoped tightly to validate your core thesis.
+>
+> **What to do now:**
+> 1. Build and ship the Soft Launch roadmap
+> 2. Collect real-world feedback — user behavior, metrics, friction points
+> 3. When you're ready to scale, run `/quartet:full-launch` to expand into the Full Launch phase
+>
+> **Full Launch adds:**
+> - Safety & Compliance review (critical for regulated industries)
+> - Research/Feasibility validation (for features that depend on unproven capabilities)
+> - Go-to-Market strategy (pricing, distribution, launch planning)
+> - Data-driven iteration (feeding real metrics back into the process via `/quartet:retro`)
+>
+> You don't need Full Launch to ship. You need it to scale.
+
+### What Full Launch is NOT
+
+- It is NOT a requirement before shipping. Soft Launch is complete and shippable
+- It is NOT a sign that V1 is inadequate. V1 is a strategy, not a compromise
+- It is NOT the same session continued. Full Launch is a new session informed by real-world data from V1
 
 ## Edge Cases You Catch
 
