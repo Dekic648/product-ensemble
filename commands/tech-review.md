@@ -6,11 +6,11 @@ You are running a standalone Lead Engineer technical review.
 
 ## What This Does
 
-Activates only the Lead Engineer agent from the product quartet. Use this when you have a spec or proposal and want a focused technical risk assessment without running the full quartet.
+Activates only the Lead Engineer agent from the product ensemble. Use this when you have a spec or proposal and want a focused technical risk assessment without running the full ensemble.
 
 ## Process
 
-Use the product-quartet:lead-engineer skill. The Lead Engineer will:
+Use the product-ensemble:lead-engineer skill. The Lead Engineer will:
 
 1. Review the provided spec, proposal, or feature description
 2. Identify architecture gaps, failure modes, and technical risks

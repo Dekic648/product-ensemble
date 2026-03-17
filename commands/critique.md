@@ -1,8 +1,8 @@
 ---
-description: "Run all five quartet agents on an existing proposal or spec — produces UX review, scope critique, strategic assessment, technical advisory, and prioritized roadmap"
+description: "Run all five ensemble agents on an existing proposal or spec — produces UX review, scope critique, strategic assessment, technical advisory, and prioritized roadmap"
 ---
 
-You are running the Product Quartet in **Soft Launch** critique mode on an existing proposal.
+You are running the Product Ensemble in **Soft Launch** critique mode on an existing proposal.
 
 ## What This Does
 
@@ -27,4 +27,4 @@ Run all four agents in sequence on the existing material:
 
 The user approves after each agent before proceeding to the next. Follow the same sequencing and redirect logic as the full design flow.
 
-Present the complete Soft Launch output as a consolidated deliverable at the end. Frame it clearly: this is a shippable V1 critique. When the user is ready to scale after shipping, they can run `/quartet:full-launch` for the Full Launch phase.
+Present the complete Soft Launch output as a consolidated deliverable at the end. Frame it clearly: this is a shippable V1 critique. When the user is ready to scale after shipping, they can run `/ensemble:full-launch` for the Full Launch phase.

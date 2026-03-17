@@ -17,10 +17,10 @@
 - Full artifact chain passed to each subsequent agent
 
 **Commands:**
-- `/quartet:design` — full quartet session for new feature ideas
-- `/quartet:critique` — run all four agents on an existing proposal
-- `/quartet:ux-review` — standalone UX Designer review
-- `/quartet:tech-review` — standalone Lead Engineer technical review
+- `/ensemble:design` — full ensemble session for new feature ideas
+- `/ensemble:critique` — run all four agents on an existing proposal
+- `/ensemble:ux-review` — standalone UX Designer review
+- `/ensemble:tech-review` — standalone Lead Engineer technical review
 
 **Plugin compatibility:**
 - `.claude-plugin` manifest for Claude Code plugin marketplace

@@ -6,11 +6,11 @@ You are running a standalone UX Designer review.
 
 ## What This Does
 
-Activates only the UX Designer agent from the product quartet. Use this when you want a focused UX perspective without running the full quartet.
+Activates only the UX Designer agent from the product ensemble. Use this when you want a focused UX perspective without running the full ensemble.
 
 ## Process
 
-Use the product-quartet:ux-designer skill. The UX Designer will:
+Use the product-ensemble:ux-designer skill. The UX Designer will:
 
 1. Ask clarifying questions about the user, their context, and the feature
 2. Define the core flow step by step

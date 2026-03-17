@@ -1,8 +1,8 @@
 ---
-description: "Run the full product quartet on a new feature or product idea — UX Designer, Product Manager, CPO, Lead Engineer, and Roadmap Strategist in sequence"
+description: "Run the full product ensemble on a new feature or product idea — UX Designer, Product Manager, CPO, Lead Engineer, and Roadmap Strategist in sequence"
 ---
 
-You are starting a **Soft Launch** Product Quartet design session.
+You are starting a **Soft Launch** Product Ensemble design session.
 
 ## What This Does
 
@@ -29,12 +29,12 @@ Examples:
 
 ## Process
 
-Use the product-quartet:ux-designer skill first. After the UX Brief is approved by the user, proceed to product-quartet:product-manager. After the Product Spec is approved, proceed to product-quartet:cpo. If the CPO verdict is GO and the user approves, proceed to product-quartet:lead-engineer.
+Use the product-ensemble:ux-designer skill first. After the UX Brief is approved by the user, proceed to product-ensemble:product-manager. After the Product Spec is approved, proceed to product-ensemble:cpo. If the CPO verdict is GO and the user approves, proceed to product-ensemble:lead-engineer.
 
-If the CPO issues a REDIRECT, route back to product-quartet:product-manager with the CPO's feedback. Maximum 3 redirect loops before surfacing to the user.
+If the CPO issues a REDIRECT, route back to product-ensemble:product-manager with the CPO's feedback. Maximum 3 redirect loops before surfacing to the user.
 
-Follow the sequencing logic defined in the quartet-orchestrator agent. Every artifact must be approved by the user before advancing.
+Follow the sequencing logic defined in the ensemble-orchestrator agent. Every artifact must be approved by the user before advancing.
 
-After the Lead Engineer's technical advisory is approved, proceed to product-quartet:roadmap-strategist. The Roadmap Strategist receives all four approved artifacts and produces a prioritized implementation roadmap.
+After the Lead Engineer's technical advisory is approved, proceed to product-ensemble:roadmap-strategist. The Roadmap Strategist receives all four approved artifacts and produces a prioritized implementation roadmap.
 
-After the roadmap is delivered, present the complete Soft Launch plan to the user. Frame it clearly: this is a shippable V1 ready to build. When the user is ready to scale after shipping V1, they can run `/quartet:full-launch` to enter the Full Launch phase — which adds safety review, research validation, go-to-market strategy, and data-driven iteration.
+After the roadmap is delivered, present the complete Soft Launch plan to the user. Frame it clearly: this is a shippable V1 ready to build. When the user is ready to scale after shipping V1, they can run `/ensemble:full-launch` to enter the Full Launch phase — which adds safety review, research validation, go-to-market strategy, and data-driven iteration.

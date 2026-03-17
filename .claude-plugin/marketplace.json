@@ -1,14 +1,14 @@
 {
-  "name": "product-quartet-dev",
-  "description": "Development marketplace for Product Quartet skills library",
+  "name": "product-ensemble-dev",
+  "description": "Development marketplace for Product Ensemble skills library",
   "owner": {
     "name": "Milo Vandekic"
   },
   "plugins": [
     {
-      "name": "product-quartet",
-      "description": "Four composable AI agents — UX Designer, Product Manager, CPO, and Lead Engineer — that collaborate to shape features from idea to buildable spec",
-      "version": "1.0.0",
+      "name": "product-ensemble",
+      "description": "Composable AI product team — UX Designer, Product Manager, CPO, Lead Engineer, Roadmap Strategist, and Full Launch specialists — that collaborate to shape features from idea to shippable roadmap",
+      "version": "2.0.0",
       "source": "./",
       "author": {
         "name": "Milo Vandekic"
